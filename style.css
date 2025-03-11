@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #212f3d;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        border: 1px solid;
+}
+ul{
+    list-style: none;
+        display: flex;
+        gap: 15px;
+        margin: 0;
+        padding: 0;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    color: white;
+        text-decoration: none;
+        font-weight: bold;
+}
+ul li a:hover{
+    color: #f39c12;
+}
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+}
+.game-card {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+.game-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+body{
+    background-color: #34495e ;
+}
+h3{
+    font-size: 14px;
+    color: #66c0f4;
+    margin-bottom: 10px;
+}
+.sidebar {
+    position: fixed;
+    top: 60px; 
+    left: 0;
+    width: 250px;
+    height: calc(100vh - 60px); 
+    background-color: #1b2838;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    font-size: 14px;
+    color: #66c0f4;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    display: block;
+    font-size: 13px;
+    color: #dcdcdc;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    color: white;
+    text-decoration: underline;
+}
+.main-content {
+    margin-left: 260px; 
+    padding: 80px 20px 20px; 
+    background-color: #2b3a50;
+    min-height: 100vh;
+}
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffcc00; 
+    margin-top: 5px;
+    text-align: center;
+}
+h2 :hover{
+    color: #f39c12;
+}
+
